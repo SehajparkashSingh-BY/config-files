@@ -1,8 +1,6 @@
-server:
-    port: 8080
 spring:
-    application:
-        name: product-service
-    data:
-        mongodb:
-            uri: mongodb://localhost:27017/products
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/products
+server:
+  port: 8080
