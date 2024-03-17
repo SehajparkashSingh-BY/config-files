@@ -1,7 +1,7 @@
 spring:
   data:
     mongodb:
-      uri: mongodb://localhost:27017/products
+      uri: mongodb://localhost:27017/Sidak
 server:
   port: 8085
 
